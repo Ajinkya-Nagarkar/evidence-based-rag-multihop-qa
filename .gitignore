@@ -7,6 +7,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Large data files
+data/
+
+# Reports
+reports/
+
 # Distribution / packaging
 .Python
 build/
