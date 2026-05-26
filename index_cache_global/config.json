@@ -1,0 +1,8 @@
+{
+  "alpha": 0.7,
+  "alpha_bridge": 0.5,
+  "alpha_comparison": 0.5,
+  "rrf_k": 20,
+  "num_passages": 66635,
+  "candidate_pool_size": 100
+}

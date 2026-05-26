@@ -1,0 +1,15 @@
+Evaluating 10 / 7405 examples (7395 not in predictions, skipped)
+{
+  "em": 0.6,
+  "f1": 0.6666666666666666,
+  "prec": 0.675,
+  "recall": 0.6599999999999999,
+  "sp_em": 0.6,
+  "sp_f1": 0.9199999999999999,
+  "sp_prec": 0.9466666666666667,
+  "sp_recall": 0.9133333333333333,
+  "joint_em": 0.4,
+  "joint_f1": 0.6266666666666667,
+  "joint_prec": 0.655,
+  "joint_recall": 0.6066666666666667
+}

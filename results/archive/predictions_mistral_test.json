@@ -1,0 +1,41 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "answer": "Yes",
+    "sp": [
+      [
+        "Passage 0",
+        "0"
+      ],
+      [
+        "Passage 3",
+        "3"
+      ]
+    ]
+  },
+  "5a8c7595554299585d9e36b6": {
+    "answer": "Corliss Archer was portrayed by an actress in a film, not in a government position. Therefore, it cannot be determined from the provided evidence what government position was held by the woman who portrayed Corliss Archer.",
+    "sp": [
+      [
+        "Title",
+        "0"
+      ],
+      [
+        "Title",
+        "3"
+      ]
+    ]
+  },
+  "5a85ea095542994775f606a8": {
+    "answer": "The science fantasy young adult series, told in first person, that has a set of companion books narrating the stories of enslaved worlds and alien species is 'The Hork-Bajir Chronicles'.",
+    "sp": [
+      [
+        "The Hork-Bajir Chronicles",
+        "0"
+      ],
+      [
+        "The Divide trilogy",
+        "3"
+      ]
+    ]
+  }
+}

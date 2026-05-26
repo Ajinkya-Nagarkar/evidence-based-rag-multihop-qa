@@ -1,0 +1,86 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Ed Wood",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"Fact 0 states Scott Derrickson is American. Fact 3 states Ed Wood is American. Both are American, so same nationality.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"yes\"}"
+  },
+  "5a8c7595554299585d9e36b6": {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"Fact 0 identifies Shirley Temple as the actress, but no facts mention her government position.\", \"supporting_fact_numbers\": [0], \"answer\": \"Cannot determine from evidence\"}"
+  },
+  "5a85ea095542994775f606a8": {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "answer": "Animorphs",
+    "sp": [
+      [
+        "Animorphs",
+        0
+      ],
+      [
+        "Animorphs",
+        1
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        0
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        3
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        2
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"Animorphs is a science fantasy young adult series told in first person, and it has companion books like The Hork-Bajir Chronicles that narrate stories of enslaved worlds and alien species.\", \"supporting_fact_numbers\": [0, 1, 10, 7, 8], \"answer\": \"Animorphs\"}"
+  },
+  "5adbf0a255429947ff17385a": {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "gold_answer": "no",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Esma Sultan Mansion",
+        0
+      ],
+      [
+        "Laleli Mosque",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"Facts provide location details but not confirmation of the same neighborhood.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"Cannot determine from evidence\"}"
+  },
+  "5a8e3ea95542995a26add48d": {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"The director is Adriana Trigiani from Fact 0, but no facts provide information about her location or if she is based in New York City.\", \"supporting_fact_numbers\": [0], \"answer\": \"Cannot determine from evidence\"}"
+  }
+}

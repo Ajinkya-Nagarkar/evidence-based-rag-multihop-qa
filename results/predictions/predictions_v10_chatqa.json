@@ -1,0 +1,134 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "answer": "**YOUR OUTPUT**: {\"supporting_fact_numbers\": [0, 1], \"answer\": true}",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Scott Derrickson",
+        2
+      ]
+    ]
+  },
+  "5a8c7595554299585d9e36b6": {
+    "answer": "child actress",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ]
+    ]
+  },
+  "5a85ea095542994775f606a8": {
+    "answer": "",
+    "sp": []
+  },
+  "5adbf0a255429947ff17385a": {
+    "answer": "yes",
+    "sp": [
+      [
+        "Laleli Mosque",
+        0
+      ]
+    ]
+  },
+  "5a8e3ea95542995a26add48d": {
+    "answer": "Short answer here",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ],
+      [
+        "Big Stone Gap (film)",
+        1
+      ],
+      [
+        "Nola (film)",
+        0
+      ]
+    ]
+  },
+  "5abd94525542992ac4f382d2": {
+    "answer": "# Available Facts",
+    "sp": [
+      [
+        "2014 S/S",
+        0
+      ],
+      [
+        "2014 S/S",
+        1
+      ],
+      [
+        "2014 S/S",
+        2
+      ],
+      [
+        "Winner (band)",
+        0
+      ],
+      [
+        "Winner (band)",
+        1
+      ]
+    ]
+  },
+  "5a85b2d95542997b5ce40028": {
+    "answer": "0. Fact 3 states that Eenasul Fateh was born on April 3, 1959.",
+    "sp": [
+      [
+        "Management consulting",
+        1
+      ],
+      [
+        "ELDee",
+        0
+      ],
+      [
+        "ELDee",
+        1
+      ],
+      [
+        "Method Man",
+        0
+      ]
+    ]
+  },
+  "5a87ab905542996e4f3088c1": {
+    "answer": "4000",
+    "sp": [
+      [
+        "Lewiston Maineiacs",
+        0
+      ],
+      [
+        "Lewiston Maineiacs",
+        1
+      ]
+    ]
+  },
+  "5a7bbb64554299042af8f7cc": {
+    "answer": "yes",
+    "sp": []
+  },
+  "5a8db19d5542994ba4e3dd00": {
+    "answer": "your answer",
+    "sp": [
+      [
+        "For Against",
+        0
+      ],
+      [
+        "For Against",
+        1
+      ],
+      [
+        "Local H",
+        0
+      ]
+    ]
+  }
+}

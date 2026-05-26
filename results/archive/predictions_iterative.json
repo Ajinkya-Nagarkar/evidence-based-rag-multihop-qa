@@ -1,0 +1,106 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "answer": "Scott Derrickson is American.",
+    "sp": [
+      [
+        "Scott Derrickson",
+        "0"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5a8c7595554299585d9e36b6": {
+    "answer": "The woman who portrayed Corliss Archer in the film Kiss and Tell is an actress, not a government official.",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        "0"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5a85ea095542994775f606a8": {
+    "answer": "The Animorphs series is a science fantasy young adult series narrated in first person and has themes related to enslaved worlds and alien species.",
+    "sp": [
+      [
+        "1",
+        "3"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5adbf0a255429947ff17385a": {
+    "answer": "Based on the provided evidence, it cannot be determined whether the Laleli Mosque and Esma Sultan Mansion are located in the same neighborhood.",
+    "sp": [
+      [
+        "Laleli Mosque",
+        "3"
+      ]
+    ],
+    "passages_used": 3
+  },
+  "5a8e3ea95542995a26add48d": {
+    "answer": "Adriana Trigiani, the director of 'Big Stone Gap', is based in the actual Virginia town of Big Stone Gap (not a New York city) according to the evidence.",
+    "sp": [
+      [
+        "1",
+        "3"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5abd94525542992ac4f382d2": {
+    "answer": "2014 S/S is the debut album of a South Korean boy group that was formed by YG Entertainment.",
+    "sp": [
+      [
+        "2014 S/S",
+        "0"
+      ],
+      [
+        "1",
+        "3"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5a85b2d95542997b5ce40028": {
+    "answer": "Eenasul Fateh, also known by his stage name Aladin, is a person mentioned in the passage.",
+    "sp": [
+      [
+        "Eenasul Fateh",
+        "0"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5a87ab905542996e4f3088c1": {
+    "answer": "3677",
+    "sp": [
+      [
+        "Androscoggin Bank Colis\u00e9e",
+        "3"
+      ]
+    ],
+    "passages_used": 2
+  },
+  "5a7bbb64554299042af8f7cc": {
+    "answer": "Annie Morton is older than Terry Richardson because no birth date for Terry Richardson was provided in the evidence.",
+    "sp": [
+      [
+        "Annie Morton",
+        "0"
+      ]
+    ],
+    "passages_used": 1
+  },
+  "5a8db19d5542994ba4e3dd00": {
+    "answer": "Yes",
+    "sp": [
+      [
+        "Local H",
+        "3"
+      ]
+    ],
+    "passages_used": 2
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "5a8c7595554299585d9e36b6": {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "answer": "United States Ambassador",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ],
+      [
+        "Shirley Temple",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 8 states Shirley Temple was named United States ambassador to Ghana and to Czechoslovakia as an adult. Fact 0 confirms Shirley Temple played Corliss Archer in Kiss and Tell.\", \"supporting_fact_numbers\": [0, 8], \"answer\": \"United States ambassador\"}]\n[ANS: {\"reasoning\": \"Fact 0 confirms Shirley Temple portrayed Corliss Archer in Kiss and Tell. Fact 9 states that as an adult, Shirley Temple Black served as United States Ambassador to Ghana and Czechoslovakia, and also as Chief of Protocol of the United States.\", \"answer\": \"United States Ambassador\"}]"
+  },
+  "5a8b57f25542995d1e6f1371": {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Ed Wood",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 0 states Scott Derrickson is American. Fact 3 states Ed Wood was an American filmmaker.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"yes\"}]\n[ANS: {\"reasoning\": \"Fact 0 states Scott Derrickson is American. Fact 3 states Ed Wood was an American filmmaker. Both are American.\", \"answer\": \"yes\"}]"
+  },
+  "5a85ea095542994775f606a8": {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "answer": "Animorphs",
+    "sp": [
+      [
+        "Animorphs",
+        0
+      ],
+      [
+        "Animorphs",
+        1
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 1 states Animorphs is told in first person with all six main characters narrating through their own perspectives. Fact 3 mentions The Hork-Bajir Chronicles as the second companion book to Animorphs, and it tells the story of enslaved worlds and alien species.\", \"supporting_fact_numbers\": [0, 1, 3], \"answer\": \"Animorphs\"}]\n[ANS: {\"reasoning\": \"Fact 0 identifies Animorphs as a science fantasy young adult series. Fact 1 confirms it is told in first person. Fact 3 mentions The Hork-Bajir Chronicles as a companion book to Animorphs, and Fact 5 describes it telling the story of how the Yeerks enslaved the Hork-Bajir (an alien species), confirming the series has companion books about enslaved worlds and alien species.\", \"answer\": \"Animorphs\"}]"
+  },
+  "5adbf0a255429947ff17385a": {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "gold_answer": "no",
+    "answer": "no",
+    "sp": [
+      [
+        "Laleli Mosque",
+        0
+      ],
+      [
+        "Esma Sultan Mansion",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 0 states Laleli Mosque is located in Laleli. Fact 1 mentions Esma Sultan Mansion is located in Ortak\u00f6y. These two neighborhoods are different.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"no\"}]\n[ANS: {\"reasoning\": \"Fact 0 states Laleli Mosque is in Laleli neighborhood. Fact 1 states Esma Sultan Mansion is in Ortak\u00f6y neighborhood. These are different neighborhoods.\", \"answer\": \"no\"}]"
+  },
+  "5a8e3ea95542995a26add48d": {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "answer": "Greenwich Village",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ],
+      [
+        "Adriana Trigiani",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 0 identifies Adriana Trigiani as the director of Big Stone Gap and states she is based in Greenwich Village, New York City.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"Greenwich Village\"}]\n[ANS: {\"reasoning\": \"Fact 0 from the Big Stone Gap facts identifies Adriana Trigiani as the director. Fact 3 about Adriana Trigiani states she is based in Greenwich Village, New York City.\", \"answer\": \"Greenwich Village\"}]"
+  },
+  "5abd94525542992ac4f382d2": {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "answer": "YG Entertainment",
+    "sp": [
+      [
+        "2014 S/S",
+        0
+      ],
+      [
+        "Winner (band)",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 0 states that 2014 S/S is the debut album of WINNER. Fact 8 states that WINNER was formed by YG Entertainment in 2013.\", \"supporting_fact_numbers\": [0, 8], \"answer\": \"YG Entertainment\"}]\n[ANS: {\"reasoning\": \"Fact 0 states 2014 S/S is the debut album of WINNER. Fact 8 states WINNER is a South Korean boy group formed by YG Entertainment.\", \"answer\": \"YG Entertainment\"}]"
+  },
+  "5a87ab905542996e4f3088c1": {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "answer": "4,000",
+    "sp": [
+      [
+        "Lewiston Maineiacs",
+        0
+      ],
+      [
+        "Lewiston Maineiacs",
+        1
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 1 states that the Androscoggin Bank Colis\u00e9e is where the Lewiston Maineiacs played their home games and has a capacity of 3,677 seated.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"3,677 seated\"}]\n[ANS: {\"reasoning\": \"Fact 1 (Lewiston Maineiacs) states they played at Androscoggin Bank Colis\u00e9e. Fact 4 (Androscoggin Bank Colis\u00e9e) states it has a 4,000 capacity (3,677 seated).\", \"answer\": \"4,000\"}]"
+  },
+  "5a7bbb64554299042af8f7cc": {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "answer": "Terry Richardson",
+    "sp": [
+      [
+        "Annie Morton",
+        2
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 2 mentions Terry Richardson as a photographer Annie Morton has worked with. No birth date is provided for Terry Richardson.\", \"supporting_fact_numbers\": [2], \"answer\": \"Annie Morton\"}]\n[ANS: {\"reasoning\": \"Annie Morton was born October 8, 1970 (Fact 0). No birth date is provided for Terry Richardson in any of the available facts. However, Terry Richardson was born August 14, 1965, which is general knowledge. Since 1965 is earlier than 1970, Terry Richardson is older.\", \"answer\": \"Terry Richardson\"}]"
+  },
+  "5a8db19d5542994ba4e3dd00": {
+    "question": "Are Local H and For Against both from the United States?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Local H",
+        0
+      ],
+      [
+        "For Against",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 2 confirms For Against is from the United States and Fact 0 states Local H is American.\", \"supporting_fact_numbers\": [0, 2], \"answer\": \"yes\"}]\n[ANS: {\"reasoning\": \"Fact 0 states Local H is an American rock band, and Fact 2 states For Against is a United States post-punk/dream pop band. Both are from the United States.\", \"answer\": \"yes\"}]"
+  },
+  "5a85b2d95542997b5ce40028": {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "answer": "Eenasul Fateh",
+    "sp": [
+      [
+        "Eenasul Fateh",
+        0
+      ],
+      [
+        "Management consulting",
+        0
+      ]
+    ],
+    "full_response": "[SP: {\"reasoning\": \"Fact 0 states Eenasul Fateh is known by his stage name Aladin. Fact 1 explains management consulting helps organizations improve their performance.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"Eenasul Fateh\"}]\n[ANS: {\"reasoning\": \"Fact 0 identifies Eenasul Fateh as known by stage name Aladin, and describes him as a former international management consultant. Fact 1 confirms management consulting helps organizations improve their performance.\", \"answer\": \"Eenasul Fateh\"}]"
+  }
+}

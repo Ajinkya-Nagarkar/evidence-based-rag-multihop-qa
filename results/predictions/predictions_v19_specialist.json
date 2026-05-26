@@ -1,0 +1,178 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Ed Wood",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states Scott Derrickson is an American director. Fact 3 states Ed Wood was an American filmmaker. Both are identified as American, so they share the same nationality.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  },
+  "5a8c7595554299585d9e36b6": {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "answer": "United States ambassador",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ],
+      [
+        "Shirley Temple",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Shirley Temple as the actress who portrayed Corliss Archer in Kiss and Tell (1945). Fact 10 states that as an adult, Shirley Temple was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol.\", \"supporting_fact_numbers\": [0, 10], \"answer\": \"United States ambassador\"}\n```]\n[ANS: {\"answer\": \"United States ambassador\"}]"
+  },
+  "5a85ea095542994775f606a8": {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "answer": "Animorphs",
+    "sp": [
+      [
+        "Animorphs",
+        0
+      ],
+      [
+        "Animorphs",
+        1
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        0
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        2
+      ],
+      [
+        "Animorphs",
+        2
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Animorphs as a science fantasy series of young adult books. Fact 1 confirms it is told in first person with multiple narrators. Fact 6 states The Hork-Bajir Chronicles is a companion book to Animorphs. Fact 4 indicates the companion book tells the story of the Hork-Bajir (an alien species). The themes in Fact 2 mention war and dehumanization, which relates to enslaved worlds. These facts together show Animorphs is the series matching the question's criteria.\", \"supporting_fact_numbers\": [0, 1, 6, 4, 2], \"answer\": \"Animorphs\"}\n```]\n[ANS: {\"answer\": \"Animorphs\"}]"
+  },
+  "5adbf0a255429947ff17385a": {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "gold_answer": "no",
+    "answer": "no",
+    "sp": [
+      [
+        "Laleli Mosque",
+        0
+      ],
+      [
+        "Esma Sultan Mansion",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"The available facts provide information about the Laleli Mosque and Esma Sultan Mansion, but the passages are truncated and do not include the specific location details (neighborhood information) for either building. Fact 0 mentions the Laleli Mosque is located in 'Lale...' (truncated) and Fact 1 mentions the Esma Sultan Mansion is located at 'Bos...' (truncated). Without complete location information, we cannot determine if they are in the same neighborhood.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"no\"}]"
+  },
+  "5a8e3ea95542995a26add48d": {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "answer": "Queens, New York City",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ],
+      [
+        "Adriana Trigiani",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Adriana Trigiani as the director of Big Stone Gap. However, the available facts do not contain any information about what New York city Adriana Trigiani is based in. Fact 3 describes her as an Italian American author and filmmaker, but does not mention her location or which New York city she is based in.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"Queens, New York City\"}]"
+  },
+  "5abd94525542992ac4f382d2": {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "answer": "YG Entertainment",
+    "sp": [
+      [
+        "2014 S/S",
+        0
+      ],
+      [
+        "Winner (band)",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies that 2014 S/S is the debut album of WINNER. Fact 8 states that WINNER is a South Korean boy group formed in 2013 by YG Entertainment. Therefore, 2014 S/S is the debut album of a South Korean boy group formed by YG Entertainment.\", \"supporting_fact_numbers\": [0, 8], \"answer\": \"YG Entertainment\"}\n```]\n[ANS: {\"answer\": \"YG Entertainment\"}]"
+  },
+  "5a85b2d95542997b5ce40028": {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "answer": "Aladin helped organizations",
+    "sp": [
+      [
+        "Eenasul Fateh",
+        0
+      ],
+      [
+        "Management consulting",
+        0
+      ],
+      [
+        "Management consulting",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Eenasul Fateh as the person known by stage name Aladin. However, the available facts only describe management consulting as a practice (Facts 1-2) without connecting it to Eenasul Fateh. The passage about Eenasul Fateh is incomplete and does not state his profession. While Facts 1-2 describe what management consultants do, there is no evidence linking Eenasul Fateh/Aladin to management consulting.\", \"supporting_fact_numbers\": [0, 1, 2], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"Aladin helped organizations\"}]"
+  },
+  "5a87ab905542996e4f3088c1": {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "answer": "4,000 people",
+    "sp": [
+      [
+        "Lewiston Maineiacs",
+        1
+      ],
+      [
+        "Androscoggin Bank Colis\u00e9e",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 states that the Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e. Fact 4 indicates that the Androscoggin Bank Colis\u00e9e has a 4,000 capacity.\", \"supporting_fact_numbers\": [1, 4], \"answer\": \"4,000\"}\n```]\n[ANS: {\"answer\": \"4,000 people\"}]"
+  },
+  "5a7bbb64554299042af8f7cc": {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "answer": "Terry Richardson",
+    "sp": [
+      [
+        "Annie Morton",
+        0
+      ],
+      [
+        "Terry Richardson",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states Annie Morton was born October 8, 1970. Fact 5 states Terry Richardson was born August 14, 1965. Since 1965 is earlier than 1970, Terry Richardson is older.\", \"supporting_fact_numbers\": [0, 5], \"answer\": \"Terry Richardson\"}\n```]\n[ANS: {\"answer\": \"Terry Richardson\"}]"
+  },
+  "5a8db19d5542994ba4e3dd00": {
+    "question": "Are Local H and For Against both from the United States?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Local H",
+        0
+      ],
+      [
+        "For Against",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states that Local H is an American rock band. Fact 2 states that For Against is a United States post-punk/dream pop band. Both facts explicitly confirm that both bands are from the United States.\", \"supporting_fact_numbers\": [0, 2], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  }
+}

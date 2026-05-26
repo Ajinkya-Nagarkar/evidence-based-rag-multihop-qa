@@ -1,0 +1,450 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Ed Wood",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states Scott Derrickson is an American director. Fact 3 states Ed Wood was an American filmmaker. Both are identified as American, so they share the same nationality.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  },
+  "5a8c7595554299585d9e36b6": {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "answer": "United States ambassador",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ],
+      [
+        "Shirley Temple",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Shirley Temple as the actress who portrayed Corliss Archer in Kiss and Tell (1945). Fact 10 states that as an adult, Shirley Temple was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol.\", \"supporting_fact_numbers\": [0, 10], \"answer\": \"United States ambassador\"}\n```]\n[ANS: {\"answer\": \"United States ambassador\"}]"
+  },
+  "5a85ea095542994775f606a8": {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "answer": "Animorphs",
+    "sp": [
+      [
+        "Animorphs",
+        0
+      ],
+      [
+        "Animorphs",
+        1
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        0
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        2
+      ],
+      [
+        "Animorphs",
+        2
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Animorphs as a science fantasy series of young adult books. Fact 1 confirms it is told in first person with multiple narrators. Fact 6 states The Hork-Bajir Chronicles is a companion book to Animorphs. Fact 4 indicates the companion book narrates the story of the Hork-Bajir (an alien species). The themes in Fact 2 mention war and dehumanization, which relates to enslaved worlds. These facts together show Animorphs is the series matching the question's criteria.\", \"supporting_fact_numbers\": [0, 1, 6, 4, 2], \"answer\": \"Animorphs\"}\n```]\n[ANS: {\"answer\": \"Animorphs\"}]"
+  },
+  "5adbf0a255429947ff17385a": {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "gold_answer": "no",
+    "answer": "yes",
+    "sp": [
+      [
+        "Laleli Mosque",
+        0
+      ],
+      [
+        "Esma Sultan Mansion",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"The available facts provide information about the Laleli Mosque and Esma Sultan Mansion, but the passages are truncated and do not include the specific location details (neighborhood information) for either building. Fact 0 mentions the Laleli Mosque is located in 'Lale...' (truncated) and Fact 1 mentions the Esma Sultan Mansion is located at 'Bos...' (truncated). Without complete location information, we cannot determine if they are in the same neighborhood.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  },
+  "5a8e3ea95542995a26add48d": {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "answer": "Queens",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ],
+      [
+        "Adriana Trigiani",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Adriana Trigiani as the director of Big Stone Gap. However, the available facts do not contain any information about what New York city Adriana Trigiani is based in. Fact 3 describes her as an Italian American author and filmmaker, but does not specify her location or which New York city she is based in.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"Queens\"}]"
+  },
+  "5abd94525542992ac4f382d2": {
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "gold_answer": "YG Entertainment",
+    "answer": "YG Entertainment",
+    "sp": [
+      [
+        "2014 S/S",
+        0
+      ],
+      [
+        "Winner (band)",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies that 2014 S/S is the debut album of WINNER. Fact 8 states that WINNER is a South Korean boy group formed in 2013 by YG Entertainment. Therefore, 2014 S/S is the debut album of a South Korean boy group formed by YG Entertainment.\", \"supporting_fact_numbers\": [0, 8], \"answer\": \"YG Entertainment\"}\n```]\n[ANS: {\"answer\": \"YG Entertainment\"}]"
+  },
+  "5a85b2d95542997b5ce40028": {
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "gold_answer": "Eenasul Fateh",
+    "answer": "Eenasul Fateh",
+    "sp": [
+      [
+        "Eenasul Fateh",
+        0
+      ],
+      [
+        "Management consulting",
+        0
+      ],
+      [
+        "Management consulting",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Eenasul Fateh as the person known by stage name Aladin. However, the available facts only describe what management consulting is (Facts 1-2) but do not state that Eenasul Fateh was a management consultant. The facts about Eenasul Fateh and management consulting are from different passages and are not connected.\", \"supporting_fact_numbers\": [0, 1, 2], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"Eenasul Fateh\"}]"
+  },
+  "5a87ab905542996e4f3088c1": {
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "gold_answer": "3,677 seated",
+    "answer": "4,000",
+    "sp": [
+      [
+        "Lewiston Maineiacs",
+        1
+      ],
+      [
+        "Androscoggin Bank Colis\u00e9e",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 states that the Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e. Fact 4 indicates that the Androscoggin Bank Colis\u00e9e has a 4,000 capacity.\", \"supporting_fact_numbers\": [1, 4], \"answer\": \"4,000\"}\n```]\n[ANS: {\"answer\": \"4,000\"}]"
+  },
+  "5a7bbb64554299042af8f7cc": {
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "gold_answer": "Terry Richardson",
+    "answer": "Terry Richardson",
+    "sp": [
+      [
+        "Annie Morton",
+        0
+      ],
+      [
+        "Terry Richardson",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states Annie Morton was born October 8, 1970. Fact 5 states Terry Richardson was born August 14, 1965. Since 1965 is earlier than 1970, Terry Richardson is older.\", \"supporting_fact_numbers\": [0, 5], \"answer\": \"Terry Richardson\"}\n```]\n[ANS: {\"answer\": \"Terry Richardson\"}]"
+  },
+  "5a8db19d5542994ba4e3dd00": {
+    "question": "Are Local H and For Against both from the United States?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Local H",
+        0
+      ],
+      [
+        "For Against",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states that Local H is an American rock band. Fact 2 states that For Against is a United States post-punk/dream pop band. Both facts explicitly confirm that both bands are from the United States.\", \"supporting_fact_numbers\": [0, 2], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  },
+  "5a7166395542994082a3e814": {
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "gold_answer": "Kansas Song",
+    "answer": "Kansas Song (We\u2019re From Kansas)",
+    "sp": [
+      [
+        "University of Kansas",
+        1
+      ],
+      [
+        "University of Kansas",
+        2
+      ],
+      [
+        "Kansas Song",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 and Fact 1 identify the University of Kansas as having its main campus in Lawrence and branch campuses in the Kansas City metropolitan area. Fact 5 states that Kansas Song (We're From Kansas) is the fight song of the University of Kansas.\", \"supporting_fact_numbers\": [0, 1, 5], \"answer\": \"Kansas Song\"}\n```]\n[ANS: {\"answer\": \"Kansas Song (We\u2019re From Kansas)\"}]"
+  },
+  "5a877e5d5542993e715abf7d": {
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "gold_answer": "David Weissman",
+    "answer": "David Weissman",
+    "sp": [
+      [
+        "The Family Man",
+        0
+      ],
+      [
+        "David Weissman",
+        1
+      ],
+      [
+        "David Weissman",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 3 states David Weissman is a screenwriter with credits including 'Evolution' (2001). Fact 0 indicates 'The Family Man' was written by David Diamond and David (likely David Weissman based on Fact 3). Fact 1 confirms Cage's production company helped produce 'The Family Man', establishing Nicolas Cage starred in it. The passage header for Fact 0 mentions the film was written by 'David Diamond and Davi...' (truncated), and given Fact 3 confirms David Weissman wrote 'The Family Man', he is the screenwriter. While the available facts confirm David Weissman co-wrote 'The Family Man' starring Nicolas Cage, the facts do not explicitly mention T\u00e9a Leoni as a star of this film.\", \"supporting_fact_numbers\": [0, 3, 4], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"David Weissman\"}]"
+  },
+  "5ab3b0bf5542992ade7c6e39": {
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "gold_answer": "1999",
+    "answer": "1999",
+    "sp": [
+      [
+        "End of Days (film)",
+        1
+      ],
+      [
+        "End of Days (film)",
+        0
+      ],
+      [
+        "Oh My God (Guns N' Roses song)",
+        0
+      ],
+      [
+        "Oh My God (Guns N' Roses song)",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 and Fact 1 establish that End of Days is a 1999 film starring Arnold Schwarzenegger as a former New York Police Department detective named Jericho Cane. Fact 7 states that 'Oh My God' by Guns N' Roses was released in 1999 on the End of Days soundtrack. Fact 8 confirms the song was sent out to radio stations in November 1999 as a promo for the soundtrack and the band. Therefore, Guns N' Roses performed a promo for End of Days in 1999.\", \"supporting_fact_numbers\": [0, 1, 7, 8], \"answer\": \"1999\"}\n```]\n[ANS: {\"answer\": \"1999\"}]"
+  },
+  "5ab56e32554299637185c594": {
+    "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+    "gold_answer": "no",
+    "answer": "no",
+    "sp": [
+      [
+        "888 7th Avenue",
+        0
+      ],
+      [
+        "888 7th Avenue",
+        2
+      ],
+      [
+        "Random House Tower",
+        0
+      ],
+      [
+        "Random House Tower",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 describes 888 7th Avenue as an office skyscraper. Fact 1 states it houses Vornado Realty Trust corporate headquarters, confirming it is used for real estate purposes. Fact 5 describes Random House Tower as a mixed-use tower, and Fact 6 indicates it contains both a book publisher and an apartment complex. Both buildings are real estate properties used for real estate-related purposes (office space and mixed-use residential/commercial).\", \"supporting_fact_numbers\": [0, 1, 5, 6], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"no\"}]"
+  },
+  "5ab6d09255429954757d337d": {
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "gold_answer": "from 1986 to 2013",
+    "answer": "1995\u201396 season",
+    "sp": [
+      [
+        "1995\u201396 Manchester United F.C. season",
+        3
+      ],
+      [
+        "1995\u201396 Manchester United F.C. season",
+        2
+      ],
+      [
+        "Alex Ferguson",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 8 and 9 identify Alex Ferguson as the manager who drafted/recruited David Beckham during the 1995-96 season. Fact 0 states Alex Ferguson was born on 31 December 1941, but does not provide his managerial timeframe at Manchester United. The available facts do not contain information about when Ferguson's tenure at Manchester United began or ended.\", \"supporting_fact_numbers\": [8, 9, 0], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"1995\u201396 season\"}]"
+  },
+  "5a75e05c55429976ec32bc5f": {
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "gold_answer": "9,984",
+    "answer": "not specified",
+    "sp": [
+      [
+        "Brown State Fishing Lake",
+        2
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 establishes that Brown State Fishing Lake is in Kansas (8 miles east of Hiawatha, Kansas). However, the available facts do not contain information about the total population of the United States or Kansas. The Kansas City metropolitan area fact only provides the population of that specific metropolitan area (2,340,000), not the entire country's population.\", \"supporting_fact_numbers\": [1], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"not specified\"}]"
+  },
+  "5ab3e45655429976abd1bcd4": {
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "gold_answer": "the North Atlantic Conference",
+    "answer": "Eastern College Athletic Conference-North",
+    "sp": [
+      [
+        "Vermont Catamounts men's soccer",
+        1
+      ],
+      [
+        "America East Conference",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 states that Vermont Catamounts men's soccer team competes in the America East Conference. Fact 2 provides information about the conference's former names, stating it was known as the Eastern College Athletic Conference-North from 1979 to 1988 and then 'the...' (the sentence is cut off). However, the available facts do not contain the complete information about what the conference was called from 1988 to 1996.\", \"supporting_fact_numbers\": [1, 2], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"Eastern College Athletic Conference-North\"}]"
+  },
+  "5ab29c24554299449642c932": {
+    "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Ambroise Thomas",
+        0
+      ],
+      [
+        "Giuseppe Verdi",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 states that Ambroise Thomas was a French composer best known for his operas. Fact 1 states that Giuseppe Verdi was an Italian opera composer. Both facts explicitly identify them as opera composers.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"yes\"}\n```]\n[ANS: {\"answer\": \"yes\"}]"
+  },
+  "5ae0d4c9554299603e418468": {
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "gold_answer": "1969 until 1974",
+    "answer": "1969-1974",
+    "sp": [
+      [
+        "Roger O. Egeberg",
+        2
+      ],
+      [
+        "Richard Nixon",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 states that Roger O. Egeberg served as Assistant Secretary for Health and Scientific Affairs. Fact 4 states that Richard Nixon was the 37th President of the United States from 1969 until 1974. The passage evidence indicates Egeberg served in this role during the Nixon administration, which was from 1969-1974.\", \"supporting_fact_numbers\": [1, 4], \"answer\": \"1969-1974\"}\n```]\n[ANS: {\"answer\": \"1969-1974\"}]"
+  },
+  "5a8133725542995ce29dcbdb": {
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "gold_answer": "Robert Erskine Childers DSC",
+    "answer": "no",
+    "sp": [
+      [
+        "Robert Erskine Childers",
+        0
+      ],
+      [
+        "Henry Roth",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 3 states Henry Roth was an American novelist. Fact 0 describes Robert Erskine Childers as a British writer (indicated by 'British' in the passage). The question asks which writer was from England. Robert Erskine Childers is identified as British, making him the writer from England.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"Robert Erskine Childers\"}\n```]\n[ANS: {\"answer\": \"no\"}]"
+  },
+  "5ae7a8175542993210983ed8": {
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "gold_answer": "Pedro Rodr\u00edguez",
+    "answer": "Pedro Rodr\u00edguez",
+    "sp": [
+      [
+        "Sergio P\u00e9rez",
+        0
+      ],
+      [
+        "Formula One drivers from Mexico",
+        2
+      ],
+      [
+        "Formula One drivers from Mexico",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies Sergio P\u00e9rez as born in 1990 and a Force India driver. Fact 1 states that Sergio P\u00e9rez is 'the only other Mexican to finish on the podium,' implying there was another Mexican who finished on the podium before him. Fact 3 identifies Pedro Rodr\u00edguez as 'the most successful Mexican driver being the only one to have won a grand prix,' which means he achieved a podium finish (winning is a podium finish).\", \"supporting_fact_numbers\": [0, 1, 3], \"answer\": \"Pedro Rodr\u00edguez\"}\n```]\n[ANS: {\"answer\": \"Pedro Rodr\u00edguez\"}]"
+  },
+  "5ae6050f55429929b0807a5e": {
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "gold_answer": "Sonic",
+    "answer": "Dr. Robotnik",
+    "sp": [
+      [
+        "A Rather Blustery Day",
+        1
+      ],
+      [
+        "Jim Cummings",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 1 identifies Jim Cummings as the singer of 'A Rather Blustery Day'. Fact 2 states that Jim Cummings is known for voicing Dr. Robotnik from 'Sonic the Hedgehog'. Dr. Robotnik is a character associated with the Sonic hedgehog franchise.\", \"supporting_fact_numbers\": [1, 2], \"answer\": \"Dr. Robotnik\"}\n```]\n[ANS: {\"answer\": \"Dr. Robotnik\"}]"
+  },
+  "5adddccd5542997dc7907069": {
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "gold_answer": "keyboard function keys",
+    "answer": "keyboard functions",
+    "sp": [
+      [
+        "Apple Remote",
+        1
+      ],
+      [
+        "Front Row (software)",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 3 states that the Apple Remote was originally designed to interact with the Front Row media program. Fact 8 states that Front Row is controlled by an Apple Remote or the keyboard function keys. Therefore, aside from the Apple Remote, the keyboard function keys can control Front Row.\", \"supporting_fact_numbers\": [3, 8], \"answer\": \"keyboard function keys\"}\n```]\n[ANS: {\"answer\": \"the keyboard functions\"}]"
+  },
+  "5ae2070a5542994d89d5b313": {
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "gold_answer": "Badly Drawn Boy",
+    "answer": "Wolf Alice",
+    "sp": [
+      [
+        "Wolf Alice",
+        0
+      ],
+      [
+        "Wolf Alice",
+        1
+      ],
+      [
+        "The Hour of Bewilderbeast",
+        1
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Wolf Alice is a four-piece band with 4 members (Fact 0, 1). From the members listed, we can identify instruments: Ellie Rowsell (vocals, guitar), Joff Oddie (guitars, vocals), Theo Ellis (bass), and Joel Ame (incomplete but likely drums/other). This gives approximately 4+ instruments for 4 people, or roughly 1:1 ratio. Badly Drawn Boy is a solo artist (Damon Gough) who 'played several instruments on the album's eighteen tracks' (Fact 8), meaning 1 person plays multiple instruments. This gives a higher instrument-to-person ratio (multiple instruments per 1 person) compared to Wolf Alice (approximately 1 instrument per person on average).\", \"supporting_fact_numbers\": [0, 1, 8], \"answer\": \"Badly Drawn Boy\"}\n```]\n[ANS: {\"answer\": \"Wolf Alice\"}]"
+  },
+  "5ae22b8d554299234fd0440f": {
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "gold_answer": "World's Best Goalkeeper",
+    "answer": "World's Best Goalkeeper",
+    "sp": [
+      [
+        "Kasper Schmeichel",
+        1
+      ],
+      [
+        "IFFHS World's Best Goalkeeper",
+        0
+      ]
+    ],
+    "full_response": "[SP: ```json\n{\"reasoning\": \"Fact 0 identifies that Kasper Schmeichel's father is Peter Schmeichel. However, the available facts do not contain any information about what Peter Schmeichel was voted to be by the IFFHS in 1992. Fact 12 mentions the IFFHS World's Best Goalkeeper award exists and has been given annually since 1987, but provides no specific information about Peter Schmeichel or any 1992 voting results.\", \"supporting_fact_numbers\": [0, 12], \"answer\": \"Cannot determine from evidence\"}\n```]\n[ANS: {\"answer\": \"World's Best Goalkeeper\"}]"
+  }
+}

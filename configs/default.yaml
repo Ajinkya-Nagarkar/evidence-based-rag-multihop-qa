@@ -1,0 +1,143 @@
+# ============================================================
+# HotpotQA Pipeline Configuration
+# ============================================================
+
+# --- Data ---
+data:
+  # Path to HotpotQA JSON files
+  dev_distractor: "data/hotpot_dev_distractor_v1.json"
+  dev_fullwiki: "data/hotpot_dev_fullwiki_v1.json"
+  test_fullwiki: "data/hotpot_test_fullwiki_v1.json"
+
+  # Max examples to load (null = load all)
+  limit: null
+
+# --- Retriever ---
+retriever:
+  # Ollama embedding model for dense encoding (replaces HuggingFace SentenceTransformer)
+  # Upgraded from nomic-embed-text (2K context, 768-dim) to qwen3-embedding:8b (40K context)
+  embed_model: "qwen3-embedding:8b"
+
+  # Ollama server URL
+  ollama_base_url: "http://localhost:11434"
+
+  # Device mapping (auto will pick CUDA > MPS > CPU)
+  device: "auto"
+
+  # Batch size for embedding passages — reduced from 64 for larger model
+  batch_size: 32
+
+  # --- Hybrid scoring ---
+  # ALPHA weight for dense retriever (1-alpha = weight for BM25)
+  # alpha = 1.0 → pure dense retrieval, only semantic similarity
+  # alpha = 0.7 → 70% dense, 30% BM25
+  # alpha = 0.5 → equal balance
+  # alpha = 0.3 → 30% dense, 70% BM25
+  # alpha = 0.0 → pure BM25 retrieval, only keyword matching
+  alpha: 0.7
+  alpha_bridge: 0.5 # bridge questions: favor dense (needs reasoning across passages)
+  alpha_comparison: 0.5 # comparison questions: equal weight (entities are explicit)
+
+  # RRF constant (higher = smoother ranking, standard = 60, lower = more contrastive)
+  rrf_k: 20
+
+  # Candidate pool size for hybrid fusion
+  # Only the top-N from each retriever are fused (not the full corpus)
+  candidate_pool_size: 100
+
+  # Default top-k results to return
+  top_k: 10
+
+  # --- Multi-hop ---
+  multihop:
+    hops: 2 # number of retrieval iterations
+    top_k_per_hop: 10 # passages retrieved per hop (doubled from 5 for better recall)
+    max_bridge_entities: 3 # max entities extracted per hop for query reformulation (raised from 3)
+    hop2_strategy: "both" # "title" (B), "concat" (legacy), "both" (B+D)
+    llm_decompose_confidence_threshold: 0.3 # trigger LLM decomposition below this hop-1 confidence
+    llm_decompose_ollama_model: "qwen2.5:7b"
+    extraction_temperature: 0.0 # LLM temperature for bridge entity extraction
+    extraction_timeout: 120 # Web request timeout for local LLM / Anthropic during entity extraction
+
+  # --- Persistence ---
+  index_cache_dir: "index_cache"
+
+# --- Re-Ranker ---
+reranker:
+  # Cross-encoder for passage re-ranking.
+  # Encodes (query, passage) jointly — much more accurate than bi-encoder dot product.
+  model_name: "BAAI/bge-reranker-v2-m3"
+
+  # Ollama embedding model for sentence selection (must match retriever embed_model).
+  sentence_model_name: "qwen3-embedding:8b"
+
+  device: "auto"
+
+  # No. of passages kept after re-ranking (fed to prompt builder)
+  # Reverted from 7→5: wider retrieval (top_k_per_hop=10) feeds enough candidates, but 7 passages overwhelms the LLM (EM dropped 32%). Keep presentation narrow.
+  top_k: 5
+
+  sentence_score_threshold: 0.4 # Minimum cosine sim to select a sentence as evidence
+  max_sentences_per_passage: 5 # Max sentences to extract from any single passage
+  sentence_passage_limit: 3 # Only select sentences from top N reranked passages
+  title_overlap_boost: 0.05 # Additive boost to cosine sim if passage title shares words with query
+
+  # Batch size for cross-encoder inference
+  batch_size: 32
+
+# --- Prompt Builder ---
+prompt_builder:
+  # Formatting options
+  include_passage_numbers: true
+  include_sentence_indices: true
+  evidence_first: true # Context before question or Question before Context
+  max_evidence_chars: 6000 # Max characters before trunkating the prompt (for context limits)
+  bridge_keywords:
+    [
+      "who",
+      "which",
+      "when",
+      "where",
+      "what",
+      "how",
+      "portrayed",
+      "actor",
+      "character",
+      "played",
+    ]
+
+  # Complexity scoring weights (sum to 1.0 for normalized score)
+  complexity_length_weight: 0.10
+  complexity_length_threshold: 50
+  complexity_keywords_weight: 0.35
+  complexity_confidence_weight: 0.20
+  complexity_sentences_weight: 0.35
+  complexity_sentence_threshold: 5
+  complexity_routing_threshold: 0.50
+
+  # LLM temperatures
+  temperature_small_model: 0.1 # for simple queries
+  temperature_large_model: 0.3 # for complex queries
+
+# --- Generator ---
+generator:
+  ollama_base_url: "http://localhost:11434"
+  model_small: "llama3.2:latest"
+  model_large: "qwen3:8b"
+  request_timeout: 300
+  validate_citations: true
+  retry_on_parse_failure: true
+  specialist_mode: false # true: model_large selects facts, model_small answers
+
+# --- Evaluation ---
+eval:
+  # How many examples to evaluate on (null = all)
+  limit: 100
+
+  # Output predictions to these files
+  predictions_dir: "results/predictions"
+  metrics_dir: "results/metrics"
+
+  # Number of parallel ThreadPoolExecutor workers.
+  # Set to match your OLLAMA_NUM_PARALLEL env var to avoid request queuing.
+  parallel_workers: 3

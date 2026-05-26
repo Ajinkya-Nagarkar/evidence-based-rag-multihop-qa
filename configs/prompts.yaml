@@ -1,0 +1,87 @@
+indexer_system: |
+  You are a precise entity extractor. Respond ONLY with a valid JSON array of strings, with no additional text and no markdown formatting (do not use ```json).
+
+indexer_user: |
+  Question: {question}
+
+  Context:
+  {context}
+  Extract the most important named entities (people, places, organizations, specific concepts) from the context that are relevant to finding the final answer to the question. Focus particularly on entities that link different pieces of information together (bridge entities).
+  DO NOT include entities that are already explicitly mentioned in the question.
+  Output strictly a JSON list of strings, for example: ["Entity 1", "Entity 2"]. Output nothing else.
+
+builder_citation: |
+  QUESTION: {query}
+
+  {facts_list_str}
+
+  TASK: Answer the question using ONLY the available facts. Think step by step.
+
+  RESPOND WITH THIS JSON FORMAT - NOTHING ELSE:
+  {{
+    "reasoning": "Brief chain of thought connecting the facts to the answer",
+    "supporting_fact_numbers": [0, 1, 3],
+    "answer": "Short answer here"
+  }}
+
+  RULES:
+  - Output ONLY raw valid JSON. Do NOT wrap it in markdown backticks (```json).
+  - "reasoning": briefly explain how the facts connect to your answer. KEEP THIS TO 1-2 SENTENCES MAX to save time.
+  - "supporting_fact_numbers": list ALL fact numbers that support your answer based on AVAILABLE FACTS.
+  - "answer": short and direct (a few words). For yes/no questions, answer "yes" or "no" (lowercase).
+  - You MUST provide an answer using the available facts. Even if you only have partial evidence, give your best logical guess.
+  - NEVER output "Cannot determine from evidence", always make a prediction.
+  - For 'who/which is older/larger/first' questions, answer with the ENTITY NAME.
+
+builder_standard: |
+  Question: {query}
+
+  Instructions:
+  1. Read the evidence above carefully.
+  2. Identify which evidence passages (Passage 0, 1, 2, etc.) are relevant to the question.
+  3. Reason step-by-step using ONLY the evidence provided.
+  4. List the supporting facts by citing the passage number and sentence index: [passage_num, sentence_idx].
+  5. Generate a clear, concise answer based on the evidence.
+
+  Output Format (JSON):
+  {{
+    "supporting_facts": [[0, 0], [1, 3], [2, 1]],
+    "answer": "Your answer here"
+  }}
+
+  Important:
+  - Output ONLY raw valid JSON, no markdown formatting or backticks around it.
+  - supporting_facts is a list of [passage_number, sentence_index] pairs (NOT title).
+  - Passage numbers are 0-4 as shown in the evidence block above.
+  - You MUST provide an answer using the available facts. Even if you only have partial evidence, give your best logical guess.
+  - NEVER output "Cannot determine from evidence" unless the facts are completely unrelated to the question.
+
+generator_specialist: |
+  {question_line}
+
+  RELEVANT FACTS:
+  {facts_lines}
+
+  EXAMPLES:
+  Q: What government position was held by the actress?
+  Facts mention: "served as Ambassador" and "held the position of Chief of Protocol"
+  {{"answer": "Chief of Protocol"}}
+
+  Q: How many seats does the venue have?
+  Facts mention: "3,677 seated"
+  {{"answer": "3,677 seated"}}
+
+  Q: Who directed the film?
+  Facts mention: "directed by Eenasul Fateh"
+  {{"answer": "Eenasul Fateh"}}
+
+  RULES:
+  - Answer in 1-5 words. Extract the EXACT entity, name, number, or date from the facts.
+  - For yes/no questions, answer 'yes' or 'no'.
+  - Use the MOST SPECIFIC answer. 'Chief of Protocol' not 'government official'. 'Greenwich Village' not 'New York'.
+  - Copy exact numbers from facts. '3,677' not '4,000'. Never round.
+  - Answer with a NAME or ENTITY, never a description or sentence.
+    BAD: 'He helped organizations' GOOD: 'Eenasul Fateh'
+    BAD: 'The film was released in 2005' GOOD: '2005'
+
+  Respond with ONLY JSON: {{"answer": "your answer"}}

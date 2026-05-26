@@ -1,0 +1,82 @@
+{
+  "5a8b57f25542995d1e6f1371": {
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "gold_answer": "yes",
+    "answer": "yes",
+    "sp": [
+      [
+        "Scott Derrickson",
+        0
+      ],
+      [
+        "Ed Wood",
+        0
+      ]
+    ],
+    "full_response": "```json\n{\"reasoning\": \"Fact 0 states Scott Derrickson is an American director. Fact 3 states Ed Wood was an American filmmaker. Both are identified as American, so they share the same nationality.\", \"supporting_fact_numbers\": [0, 3], \"answer\": \"yes\"}\n```"
+  },
+  "5a8c7595554299585d9e36b6": {
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "gold_answer": "Chief of Protocol",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Kiss and Tell (1945 film)",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"Fact 0 identifies that Shirley Temple portrayed Corliss Archer in the 1945 film Kiss and Tell. However, the available facts contain no information about any government position held by Shirley Temple. The facts only discuss her film and acting roles, not any government positions.\", \"supporting_fact_numbers\": [0], \"answer\": \"Cannot determine from evidence\"}"
+  },
+  "5a85ea095542994775f606a8": {
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "gold_answer": "Animorphs",
+    "answer": "Animorphs",
+    "sp": [
+      [
+        "Animorphs",
+        0
+      ],
+      [
+        "Animorphs",
+        1
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        0
+      ],
+      [
+        "The Hork-Bajir Chronicles",
+        2
+      ]
+    ],
+    "full_response": "```json\n{\"reasoning\": \"Fact 0 identifies Animorphs as a science fantasy series of young adult books. Fact 1 confirms it is told in first person with multiple narrators. Fact 6 states that The Hork-Bajir Chronicles is a companion book to Animorphs. Fact 4 indicates the companion book tells the story of the Hork-Bajir (an alien species). The Hork-Bajir are enslaved beings in the Animorphs universe, making this the series with companion books narrating stories of enslaved worlds and alien species.\", \"supporting_fact_numbers\": [0, 1, 6, 4], \"answer\": \"Animorphs\"}\n```"
+  },
+  "5adbf0a255429947ff17385a": {
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "gold_answer": "no",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Laleli Mosque",
+        0
+      ],
+      [
+        "Esma Sultan Mansion",
+        0
+      ]
+    ],
+    "full_response": "{\"reasoning\": \"The available facts provide information about the Laleli Mosque (Fact 0) and the Esma Sultan Mansion (Fact 1), but both facts are truncated and do not include the specific location or neighborhood information needed to answer the question. The passages indicate these are both historical Ottoman structures in Istanbul, but the actual neighborhood details are cut off in the evidence provided. Without complete location information for either building, we cannot determine if they are in the same neighborhood.\", \"supporting_fact_numbers\": [0, 1], \"answer\": \"Cannot determine from evidence\"}"
+  },
+  "5a8e3ea95542995a26add48d": {
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "gold_answer": "Greenwich Village, New York City",
+    "answer": "Cannot determine from evidence",
+    "sp": [
+      [
+        "Big Stone Gap (film)",
+        0
+      ]
+    ],
+    "full_response": "```json\n{\"reasoning\": \"Fact 0 identifies Adriana Trigiani as the director of Big Stone Gap. However, the available facts do not contain any information about where Adriana Trigiani is based or lives. Fact 4 mentions Scott Derrickson lives in Los Angeles, but he is not the director of Big Stone Gap. No facts provide information about Trigiani's location.\", \"supporting_fact_numbers\": [0], \"answer\": \"Cannot determine from evidence\"}\n```"
+  }
+}
